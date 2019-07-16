@@ -59,7 +59,8 @@ class Resume extends Component {
               <div className="row justify-content-center align-items-center">
                 <img
                   src="https://d1qb2nb5cznatu.cloudfront.net/users/1817833-large?1465999996"
-                  class="img-fluid img-shape"
+                  className="img-fluid img-shape"
+                  alt="usman-asif-img"
                 />
               </div>
               <h1 className="name row justify-content-center align-items-center pt-4 m-0">
@@ -136,13 +137,6 @@ class Resume extends Component {
                     <p className="card-text">{position.description}</p>
                   </div>
                 </div>
-                // <div key={position.id} className="row p-3 m-3">
-                //   <h5 className="card-title">{position.position}</h5>
-                //   <h6 className="card-subtitle mb-2 text-muted">
-                //     {position.year}
-                //   </h6>
-                //   <p className="card-text">{position.description}</p>
-                // </div>
               ))}
             </div>
           );
